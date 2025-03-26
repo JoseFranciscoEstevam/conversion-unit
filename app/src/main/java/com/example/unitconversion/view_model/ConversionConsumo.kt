@@ -10,6 +10,7 @@ class ConversionConsumo: ViewModel() {
     var MilhaporGalaoAmericano = BigDecimal("235.215")
     var MilhaporGalaoImperial = BigDecimal("282.481")
     var KilometrosporLitro = BigDecimal("100.0")
+    var MetroporLitro = BigDecimal("0.00001")
 
     var ending_qty: String = ""
     var beginning_qty: String = ""
@@ -22,6 +23,7 @@ class ConversionConsumo: ViewModel() {
             "Milha por Galão Americano" -> MilhaporGalaoAmericano
             "Milha por Galão Imperial" -> MilhaporGalaoImperial
             "Kilometro por Litro" -> KilometrosporLitro
+            "Metro por Litro" -> MetroporLitro
 
             else -> BigDecimal.ONE
         }

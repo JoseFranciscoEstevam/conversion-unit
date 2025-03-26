@@ -107,7 +107,8 @@ class GetUnitTypeConversionViewModel: ViewModel() {
             UnitList("Litro por 100 Kilometros", 1.0, "(l/km)"),
             UnitList("Milha por Galão Americano", 235.215 / Litropor100Kilometros, "(mga)"),
             UnitList("Milha por Galão Imperial", 282.481 / Litropor100Kilometros, "(mgi)"),
-            UnitList("Kilometro por Litro", 100.0 / Litropor100Kilometros, "(km/l)")
+            UnitList("Kilometro por Litro", 100.0 / Litropor100Kilometros, "(km/l)"),
+            UnitList("Metro por Litro", 100000.0 / Litropor100Kilometros, "(m/l)")
         )
     }
     fun getUnitFrequencia() = listOf(
